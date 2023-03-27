@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 5%;
+}
+
+header {
+    background-image: url(https://www.devsnews.com/template/bazna/bazna/img/slider/slider-2.jpg);
+    background-size: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul.menu li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+nav ul.menu li a {
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    padding: 20px 0px;
+}
+
+.slogan b {
+    font-size: 60px;
+    color: white;
+}
+
+.text-orange {
+    color: #d35807;
+}
+
+.text-white {
+    color: white;
+}
+
+.slogan {
+    padding-top: 100px;
+}
+
+.mt-10 {
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.btn-orange {
+    background-color: #d35807;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 40px;
+}
